@@ -13,7 +13,17 @@ const HeaderComponent = (props) => {
             height="70px"
           />
         </NavbarBrand>
-        <NavbarText className="display-4">Balloon Game</NavbarText>
+        <NavbarText
+          className="display-4"
+          style={{
+            cursor: "context-menu",
+            webkitUserSelect: "none",
+            msUserSelect: "none",
+            userSelect: "none",
+          }}
+        >
+          Balloon Game
+        </NavbarText>
       </Navbar>
     </div>
   );
