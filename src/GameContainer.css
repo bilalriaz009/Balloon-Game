@@ -1,0 +1,21 @@
+#container {
+  margin: 10px, 0px, 0px, 0px;
+  border: 2px solid black;
+  width: 99%;
+  height: 300px;
+}
+#result {
+  background-color: black;
+  color: whitesmoke;
+  width: fit-content;
+  padding: 30px;
+  border-radius: 10px;
+  font-family: monospace;
+  margin-top: 12%;
+}
+.winnerTitle {
+  color: yellow;
+}
+.loserTitle {
+  color: tomato;
+}
