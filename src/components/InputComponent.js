@@ -108,6 +108,18 @@ class InputComponent extends Component {
                 </Col>
               </Row>
             </form>
+            <Row>
+              <Col className="lead">
+                <div style={{ marginTop: "5%" }}>
+                  <em>
+                    <strong>Instructions: </strong>Enter your name and number of
+                    balloons. Then you have to explode as many balloons as you
+                    can in 30 seconds. If your socre is above 70%, you will be
+                    the winner!
+                  </em>
+                </div>
+              </Col>
+            </Row>
           </Container>
         </div>
       );
